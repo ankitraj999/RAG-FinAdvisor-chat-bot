@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Demo link: https://www.youtube.com/watch?v=9rlxBpXdbOQ
 
 ## Getting Started
 
@@ -13,24 +13,24 @@ pnpm dev
 # or
 bun dev
 ```
+# RAG Chatbot with Llama 3 and Pinecone
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project implements a Retrieval-Augmented Generation (RAG) chatbot using Llama 3 as the Language Model (LLM) and Pinecone as the vector database. The frontend is built with Next.js for a responsive and efficient user interface.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Features
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Conversational AI powered by Llama 3
+- Efficient information retrieval using Pinecone vector database
+- Context-aware responses based on conversation history
+- Seamless integration with Next.js frontend
+- API-based architecture for flexible deployment
 
-## Learn More
+## Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+- **Language Model**: Llama 3
+- **Vector Database**: Pinecone
+- **Backend**: Python with Flask
+- **Frontend**: Next.js
+- **Embedding Model**: Sentence Transformers (all-MiniLM-L6-v2)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
